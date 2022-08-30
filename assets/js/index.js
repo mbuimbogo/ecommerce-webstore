@@ -15,3 +15,9 @@ const wholeCart = document.querySelector('.whole-cart-window')
 wholeCart.inWindow = 0
 const addToCartBtns = document.querySelectorAll('.add-to-cart-btn')
 
+
+
+addToCartBtns.forEach((btn) => {
+    btn.addEventListener('click', addItemFunction)
+})
+
