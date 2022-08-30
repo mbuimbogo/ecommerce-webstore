@@ -1,2 +1,63 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
 
+*,
+*::after{
+margin:0;
+padding:0;
+box-sizing: border-box;
+}
+
+body{
+    width:100vw;
+    font-family: 'Lato', sans-serif;
+}
+header{
+    position: fixed;
+    left:0;
+    right:0;
+    top:0;
+    height:12vh;
+    background-color: rgb(175, 42, 42);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+h1{
+    color: #fff;
+}
+.cart-box{
+    width:26% !important;
+    position: absolute;
+    left:72%;
+    top:25%;
+    padding:10px 20px;
+}
+h2{
+    font-size: x-large;
+    padding:15px 10px;
+}
+
+
+.subtotal{
+    text-align: right;
+    padding:5%;
+}
+.checkout, .view-cart{
+    width:95%;
+    text-align: center;
+    cursor: pointer;
+    background-color: brown;
+    font-size: large;
+    color: #fff;
+    margin:10px auto;
+    padding:10px 15px;
+}
+.view-cart{
+    background-color: #fff;
+    border: 2px solid brown;
+    color: brown;
+}
+.cart-icon{
+    text-align: right;
+}
+
