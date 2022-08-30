@@ -130,3 +130,30 @@ h2{
        margin-top:10px;
    }
    
+   .add-to-cart-btn{
+    width: fit-content;
+    margin:auto;
+    padding: 10px 15px;
+    cursor: pointer;
+    background-color: brown;
+    border-radius: 3px;
+    font-size: large;
+    color:#fff
+}
+.container,h4{
+    text-align: center;
+}
+
+#productDetails img{
+    width:80%;
+    height:80%;
+}
+
+#productDetails p{
+    width:50%;
+    margin-left: 300px;
+    padding: 20px
+}
+
+
+
