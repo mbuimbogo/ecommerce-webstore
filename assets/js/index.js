@@ -8,3 +8,10 @@ class CartItem {
         this.quantity = 1
     }
 }
+
+
+const cartIcon = document.querySelector('.fa-cart-arrow-down')
+const wholeCart = document.querySelector('.whole-cart-window')
+wholeCart.inWindow = 0
+const addToCartBtns = document.querySelectorAll('.add-to-cart-btn')
+
