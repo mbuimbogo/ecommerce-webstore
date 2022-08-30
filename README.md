@@ -1,6 +1,6 @@
 # SHOPPING-CART-WEBSITE
 
-This is about an user-interface of an ecommerce website, where the design incorportes the display of the current number of items in the cart after manipulation.
+This is about an user-interface of an ecommerce website, where the design incorpotes the display of the current number of items in the cart after manipulation.
 
 ## Building
 The application created using below structure: HTML, CSS, Javascript,
