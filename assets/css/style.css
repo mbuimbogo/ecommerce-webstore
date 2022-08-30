@@ -87,5 +87,46 @@ h2{
   margin-top: 35%; 
     }
     
-  
+    .fa-window-close{
+        color: brown;
+    }
+   
+    .whole-cart-window{
+        border: solid lightgray 1px;
+        border-top:none;
+        position: fixed;
+        top:12vh;
+        background-color: #fff;
+        margin-right:2%;
+    }
+   
+    .hide{
+        display: none;
+    }
+   
+   .card-wrapper{
+       display: flex;
+       flex-wrap: wrap;
+   }
+   .card-item{
+       display: flex;
+       flex-direction: column;
+       min-width: 500px;
+       height:600px;
+       justify-content: center;
+       align-items: center;
+   }
+   .card-item img{
+       width: 60%;
+   }
+   .card-item .details{
+       text-align: center;    
+   }
+   .card-item p,.card-item h3 {
+       margin-top:10px;   
+   }
+   .card-item span{
+       display: block;
+       margin-top:10px;
+   }
    
