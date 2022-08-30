@@ -48,6 +48,31 @@ cartIcon.addEventListener('mouseover', ()=>{
         
         })
     
-
+        const init = () => {
+            const inputForm = document.querySelector('form')
+          
+            inputForm.addEventListener('submit', (event) => {
+              event.preventDefault();
+              const input = document.querySelector('input#searchByID');
+          
+              fetch(`http://localhost:3000/product/${input.value}`)
+              .then(response => response.json())
+              
+              .then(data => {
+                console.log(data)
+                const title = document.querySelector('section#productDetails h4')
+                const description = document.querySelector('section#productDetails p')
+                const image = document.querySelector('section#productDetails img')
+                
+                title.innerText = data.title;
+                description.innerText = data.description;
+                image.src = data.image;
+            
+              });
+            });
+          }
+          document.addEventListener('DOMContentLoaded', init,()=>{updateCartUI()});
+    
+    
 
     
