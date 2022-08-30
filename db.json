@@ -1,0 +1,64 @@
+{
+    "product":
+    [
+        {
+            "id": 0,
+            "title": " Macbook Laptop",
+            "price": 1000.00,
+            "description": "The MacBook is a brand of Macintosh notebook computers designed and marketed by Apple Inc. that use Apple's macOS operating system since 2006.",
+            "category": "Technology",
+            "image": "https://images.unsplash.com/photo-1491472253230-a044054ca35f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1484&q=80.jpg"
+        },
+        {
+            "id": 1,
+            "title": "Kitchen microwave",
+            "price": 30.0,
+            "description": "small oven that cooks or heats food very quickly using with electromagnetic radiation.",
+            "category": "Kitchen ware",
+            "image": "https://cdn.pixabay.com/photo/2012/04/11/17/29/microwave-29056_960_720.png"
+        },
+        {
+            "id": 2,
+            "title": "CCTV Cameras",
+            "price": 60.00,
+            "description": "These cameras can pick up coloured images in very low-light conditions. Dark fighter technology can be used in the day and night and offer optimal performance thanks to its wide range of capabilities. They are equipped with ½” CMOS progressive scan sensors which allows the device to pick up high-quality images and do not require an extra light source which makes the perfect night time security surveillance camera.",
+            "category": "Technology",
+            "image": "https://images.unsplash.com/photo-1566060475410-1159300f046f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80.jpg"
+            
+        },
+        {
+            "id": 3,
+            "title": "Refridgerator",
+            "price": 200.00,
+            "description": "Offering endless utility and high-end style, including, Door Configurations, Energy Efficiency, WiFi Connectivity, Edge-to-Edge Shelves, Organization Drawers, Automatic Temperature Controls, Specialty Ice Dispenser.",
+            "category": "Kitchen ware",
+            "image": "https://images.unsplash.com/photo-1584568694244-14fbdf83bd30?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=426&q=80.jpg"
+        },
+        {
+            "id": 4,
+            "title": "Android TV",
+            "price": 250,
+            "description": "Android TV supports voice input for commands and universal search across multiple services; selected devices also support Google Assistant. All Android TV devices support Google Cast, allowing media to be played on them from supported apps on other devices in an identical manner to Chromecast.",
+            "category": "Technology",
+            "image": "https://images.unsplash.com/photo-1615986200762-a1ed9610d3b1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=871&q=80.jpg"
+        },
+        {
+            "id": 5,
+            "title": "Electric cooker ",
+            "price": 160.00,
+            "description": "An electric cooker often has four stoves and one or two ovens. There will be knobs to determine the temperature of the ovens and stoves. Unlike gas stoves that are powered by gas, it is powered by electricity. Usually they have four rings on top of the hob, similar to most gas cookers.",
+            "category": "Kitchen ware",
+            "image": "https://images.unsplash.com/photo-1627662057514-f15bc58cc179?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=725&q=80.jpg"
+           
+        },
+        {
+            "id":6,            
+                "title": "Washing machine",
+                "price": 200.00,
+                "description": "machines come packed with features such as quick wash, protective rat mesh, child lock, hot wash/ temperature control, digital display. ",
+                "category": "Technology",
+                "image": "https://images.unsplash.com/photo-1604335399105-a0c585fd81a1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80.jpg"
+            
+        }
+    ]
+    }
