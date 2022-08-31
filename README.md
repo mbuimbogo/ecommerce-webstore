@@ -21,4 +21,5 @@ json-server --watch db.json
 Test your server by visiting this route in the browser:
 ```
 http://localhost:3000/product
+
 ```
